@@ -1,14 +1,16 @@
-package appli.todolistfx.acceuil;
+package appli.acceuil;
 
 import javafx.fxml.FXML;
 import javafx.scene.control.Label;
 
+import java.awt.event.ActionEvent;
+
 public class InscriptionController {
     @FXML
-    private Label welcomeText;
+    private Label passwordField;
 
     @FXML
-    protected void onHelloButtonClick() {
-        welcomeText.setText("Welcome to JavaFX Application!");
+    public void RetourInscription() {
+
     }
 }

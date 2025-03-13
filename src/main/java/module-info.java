@@ -1,10 +1,11 @@
 module appli.todolistfx {
     requires javafx.controls;
     requires javafx.fxml;
+    requires java.desktop;
 
 
-    opens appli.todolistfx to javafx.fxml;
-    exports appli.todolistfx;
-    exports appli.todolistfx.acceuil;
-    opens appli.todolistfx.acceuil to javafx.fxml;
+    opens appli to javafx.fxml;
+    exports appli;
+    exports appli.acceuil;
+    opens appli.acceuil to javafx.fxml;
 }
